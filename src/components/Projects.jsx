@@ -4,54 +4,27 @@ import { Code2 } from 'lucide-react'
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    title: 'Gym Website',
+    description: 'Client demo project for a local gym in Ulhasnagar. Created using Windsurf AI and presented a working demo to the client, who gave positive feedback.',
+    technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     liveUrl: '#',
     githubUrl: 'https://github.com/shivayadav89',
     image: null
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates, team workspaces, and progress tracking.',
-    technologies: ['Vue.js', 'Firebase', 'Tailwind CSS'],
+    title: 'Food Ordering Website',
+    description: '5-page responsive food ordering website developed during Java Full Stack training at IT Vedant to practice frontend development.',
+    technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Font Awesome'],
     liveUrl: '#',
     githubUrl: 'https://github.com/shivayadav89',
     image: null
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'Beautiful weather dashboard with 7-day forecasts, location-based alerts, and interactive maps.',
-    technologies: ['React', 'OpenWeather API', 'Chart.js'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/shivayadav89',
-    image: null
-  },
-  {
-    id: 4,
-    title: 'AI Chat Assistant',
-    description: 'Intelligent chat assistant powered by machine learning for customer support automation.',
-    technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/shivayadav89',
-    image: null
-  },
-  {
-    id: 5,
-    title: 'Portfolio Generator',
-    description: 'Static site generator for creating professional portfolios with customizable themes.',
-    technologies: ['Next.js', 'MDX', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/shivayadav89',
-    image: null
-  },
-  {
-    id: 6,
-    title: 'Fitness Tracker',
-    description: 'Mobile-first fitness tracking app with workout plans, progress charts, and social features.',
-    technologies: ['React Native', 'Express', 'PostgreSQL'],
+    title: 'ShopKart',
+    description: 'Online shopping web application built with React and JavaScript as part of the Java Full Stack development training.',
+    technologies: ['React', 'JavaScript'],
     liveUrl: '#',
     githubUrl: 'https://github.com/shivayadav89',
     image: null

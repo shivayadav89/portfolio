@@ -81,16 +81,14 @@ const Skills = () => {
           <h3>Certifications</h3>
           <div className="cert-grid">
             <div className="cert-card">
-              <h4>AWS Certified Developer</h4>
-              <p>Amazon Web Services - 2023</p>
+              <h4>Certificate of Completion in Java</h4>
+              <p>CADD Kampus, Prayagraj | 160 Hours | Dec 2025 – Feb 2026</p>
+              <p className="cert-details">Covered Core Java, OOP, collections, multithreading and exception handling</p>
             </div>
             <div className="cert-card">
-              <h4>Google Cloud Professional</h4>
-              <p>Google Cloud - 2022</p>
-            </div>
-            <div className="cert-card">
-              <h4>Meta Front-End Developer</h4>
-              <p>Meta - 2023</p>
+              <h4>Certificate of Completion in Python Programming</h4>
+              <p>CADD Kampus, Prayagraj | 80 Hours | Aug 2025 – Oct 2025</p>
+              <p className="cert-details">Covered OOP, file handling, exception handling and multithreading</p>
             </div>
           </div>
         </div>

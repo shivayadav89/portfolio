@@ -32,33 +32,34 @@ const About = () => {
 
         <div className="about-description">
           <p>
-            I'm a passionate Full Stack Developer with 5+ years of experience building 
-            modern web applications. I specialize in React, Node.js, and cloud technologies, 
-            with a focus on creating scalable and user-friendly solutions.
+            I'm a Java Full Stack developer with ongoing training at IT Vedant. I'm hardworking, 
+            disciplined and quick to learn new technologies, with a strong interest in building 
+            real-world web applications.
           </p>
           <p>
-            My journey in tech started with a curiosity about how things work, which led me 
-            to pursue a degree in Computer Science. Since then, I've worked with startups 
-            and established companies, contributing to projects that impact millions of users.
+            I have built responsive web pages with HTML, CSS, Bootstrap and JavaScript, and 
+            currently learning React to grow into a skilled Full Stack Developer. I have also 
+            completed certifications in Java and Python from CADD Kampus.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new technologies, contributing 
-            to open-source projects, or sharing knowledge through technical writing and mentoring.
+            I have practical experience through projects like a Gym Website for a client, 
+            Food Ordering Website, and ShopKart application. I'm open to opportunities and 
+            eager to contribute to real-world projects.
           </p>
         </div>
 
         <div className="about-stats">
           <div className="stat">
-            <h4>5+</h4>
-            <span>Years Experience</span>
-          </div>
-          <div className="stat">
-            <h4>50+</h4>
+            <h4>3+</h4>
             <span>Projects Completed</span>
           </div>
           <div className="stat">
-            <h4>20+</h4>
-            <span>Happy Clients</span>
+            <h4>2</h4>
+            <span>Certifications</span>
+          </div>
+          <div className="stat">
+            <h4>500+</h4>
+            <span>LinkedIn Connections</span>
           </div>
         </div>
       </motion.div>

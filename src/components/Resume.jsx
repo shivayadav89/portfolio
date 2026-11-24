@@ -3,39 +3,46 @@ import { Download, Calendar, MapPin, GraduationCap, Briefcase } from 'lucide-rea
 
 const experience = [
   {
-    company: 'Learning & Personal Projects',
-    position: 'Aspiring Full Stack Java Development Professional',
-    duration: '2024 - Present',
-    location: 'Prayagraj, Uttar Pradesh',
+    company: 'Gym Website Project',
+    position: 'Freelance Web Developer',
+    duration: '2024',
+    location: 'Ulhasnagar',
     responsibilities: [
-      'Learning Java, Python, JavaScript, HTML, and CSS',
-      'Building personal projects to practice full stack development',
-      'Using Git and GitHub for version control',
-      'Learning with Devin AI for coding assistance',
-      'Developing communication and teamwork skills'
+      'Created a website for a local gym using Windsurf AI',
+      'Presented a working demo to the client',
+      'Received positive feedback from the client',
+      'Practiced HTML, CSS, and JavaScript skills'
     ]
   }
 ]
 
 const education = [
   {
-    institution: 'University of California, Berkeley',
-    degree: 'Bachelor of Science in Computer Science',
-    duration: '2015 - 2019',
-    details: 'GPA: 3.8/4.0, Dean\'s List, Computer Science Honor Society'
+    institution: 'Brij Bihari Sahai Inter College (State Board)',
+    degree: 'Higher Secondary Certificate (12th), Science',
+    duration: '2024',
+    details: 'Percentage: 63%'
   },
   {
-    institution: 'FreeCodeCamp',
-    degree: 'Full Stack Web Development Certification',
-    duration: '2018',
-    details: 'Completed 300+ hours of curriculum in web development'
+    institution: 'Brij Bihari Sahai Inter College',
+    degree: 'Secondary School Certificate (10th)',
+    duration: '2022',
+    details: 'Percentage: 77%'
+  }
+]
+
+const training = [
+  {
+    institution: 'IT Vedant',
+    degree: 'Java Full Stack Development',
+    duration: 'Ongoing',
+    details: 'Learning frontend development with HTML, CSS, JavaScript and React. Built Food Ordering Website, ShopKart and Chalo-Chale Travel App during the course.'
   }
 ]
 
 const Resume = () => {
   const handleDownload = () => {
-    // In a real app, this would download a PDF resume
-    alert('Resume download functionality - Add your PDF resume to public folder')
+    window.open('/resume.pdf', '_blank')
   }
 
   return (
@@ -111,6 +118,28 @@ const Resume = () => {
                   <p className="institution">{edu.institution}</p>
                   <p className="duration">{edu.duration}</p>
                   <p className="details">{edu.details}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            className="resume-section"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <h3 className="section-heading">
+              <Briefcase size={24} />
+              Training
+            </h3>
+            <div className="education-list">
+              {training.map((train, index) => (
+                <div key={index} className="education-item">
+                  <h4>{train.degree}</h4>
+                  <p className="institution">{train.institution}</p>
+                  <p className="duration">{train.duration}</p>
+                  <p className="details">{train.details}</p>
                 </div>
               ))}
             </div>

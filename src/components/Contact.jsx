@@ -50,14 +50,14 @@ const Contact = () => {
                 <Mail size={20} />
                 <div>
                   <span className="label">Email</span>
-                  <a href="mailto:hello@example.com">hello@example.com</a>
+                  <a href="mailto:rshiv964890@gmail.com">rshiv964890@gmail.com</a>
                 </div>
               </div>
               <div className="contact-item">
                 <Phone size={20} />
                 <div>
                   <span className="label">Phone</span>
-                  <a href="tel:+1234567890">+1 (234) 567-890</a>
+                  <a href="tel:+918957819107">+91-8957819107</a>
                 </div>
               </div>
               <div className="contact-item">
@@ -78,7 +78,7 @@ const Contact = () => {
                     <path d="M9 18c-4.51 2-5-2-7-2"/>
                   </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/shiva-yadav-604355409/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/shiv-yadav-604355409" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                     <rect width="4" height="12" x="2" y="9"/>
