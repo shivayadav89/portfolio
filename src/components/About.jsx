@@ -12,7 +12,7 @@ const About = () => {
       >
         <div className="about-header">
           <div className="avatar">
-            <img src="/profile.png" alt="Shiva Yadav" className="profile-photo" />
+            <img src="/profile.jpg" alt="Shiva Yadav" className="profile-photo" />
           </div>
           <div className="about-text">
             <h2>About Me</h2>
