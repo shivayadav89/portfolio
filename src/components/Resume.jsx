@@ -42,7 +42,7 @@ const training = [
 
 const Resume = () => {
   const handleDownload = () => {
-    window.open('/resume.pdf', '_blank')
+    window.open('/resume.png', '_blank')
   }
 
   return (
@@ -59,7 +59,7 @@ const Resume = () => {
           </div>
           <button className="download-btn" onClick={handleDownload}>
             <Download size={20} />
-            Download Resume
+            View Resume
           </button>
         </div>
 
