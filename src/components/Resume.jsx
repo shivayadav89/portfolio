@@ -3,39 +3,16 @@ import { Download, Calendar, MapPin, GraduationCap, Briefcase } from 'lucide-rea
 
 const experience = [
   {
-    company: 'Tech Innovation Inc.',
-    position: 'Senior Full Stack Developer',
-    duration: '2022 - Present',
-    location: 'Kalyan, Maharashtra',
+    company: 'Learning & Personal Projects',
+    position: 'Aspiring Full Stack Java Development Professional',
+    duration: '2024 - Present',
+    location: 'Prayagraj, Uttar Pradesh',
     responsibilities: [
-      'Led development of microservices architecture serving 1M+ users',
-      'Mentored team of 5 junior developers',
-      'Reduced application load time by 40% through optimization',
-      'Implemented CI/CD pipelines reducing deployment time by 60%'
-    ]
-  },
-  {
-    company: 'Digital Solutions Co.',
-    position: 'Full Stack Developer',
-    duration: '2020 - 2022',
-    location: 'Remote',
-    responsibilities: [
-      'Developed and maintained multiple client-facing web applications',
-      'Collaborated with design team to implement responsive UIs',
-      'Integrated third-party APIs for payment and authentication',
-      'Participated in code reviews and technical planning'
-    ]
-  },
-  {
-    company: 'StartUp Labs',
-    position: 'Junior Developer',
-    duration: '2019 - 2020',
-    location: 'Austin, TX',
-    responsibilities: [
-      'Built React components for customer-facing features',
-      'Assisted in database design and optimization',
-      'Wrote unit and integration tests',
-      'Contributed to agile development processes'
+      'Learning Java, Python, JavaScript, HTML, and CSS',
+      'Building personal projects to practice full stack development',
+      'Using Git and GitHub for version control',
+      'Learning with Devin AI for coding assistance',
+      'Developing communication and teamwork skills'
     ]
   }
 ]

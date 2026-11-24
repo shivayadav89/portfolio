@@ -2,43 +2,34 @@ import { motion } from 'framer-motion'
 
 const skillCategories = [
   {
-    category: 'Frontend',
+    category: 'Programming Languages',
     skills: [
-      { name: 'React', level: 95 },
-      { name: 'Vue.js', level: 85 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'Tailwind CSS', level: 88 },
-      { name: 'Next.js', level: 82 },
+      { name: 'Java', level: 75 },
+      { name: 'Python', level: 70 },
+      { name: 'JavaScript', level: 65 },
     ]
   },
   {
-    category: 'Backend',
+    category: 'Web Technologies',
     skills: [
-      { name: 'Node.js', level: 90 },
-      { name: 'Python', level: 85 },
-      { name: 'Express', level: 88 },
-      { name: 'PostgreSQL', level: 80 },
-      { name: 'MongoDB', level: 82 },
+      { name: 'HTML', level: 80 },
+      { name: 'CSS', level: 75 },
     ]
   },
   {
-    category: 'DevOps & Tools',
+    category: 'Tools & Platforms',
     skills: [
-      { name: 'Git', level: 92 },
-      { name: 'Docker', level: 78 },
-      { name: 'AWS', level: 75 },
-      { name: 'CI/CD', level: 80 },
-      { name: 'Linux', level: 85 },
+      { name: 'Git', level: 70 },
+      { name: 'GitHub', level: 70 },
+      { name: 'Devin AI', level: 65 },
     ]
   },
   {
     category: 'Soft Skills',
     skills: [
-      { name: 'Problem Solving', level: 95 },
-      { name: 'Communication', level: 90 },
-      { name: 'Team Leadership', level: 85 },
-      { name: 'Agile/Scrum', level: 88 },
-      { name: 'Project Management', level: 82 },
+      { name: 'Communication Skills', level: 80 },
+      { name: 'Team Player', level: 85 },
+      { name: 'Quick Learner', level: 90 },
     ]
   }
 ]

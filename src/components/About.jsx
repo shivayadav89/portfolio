@@ -12,19 +12,19 @@ const About = () => {
       >
         <div className="about-header">
           <div className="avatar">
-            <User size={120} />
+            <img src="/profile.png" alt="Shiva Yadav" className="profile-photo" />
           </div>
           <div className="about-text">
             <h2>About Me</h2>
-            <h3>Full Stack Developer</h3>
+            <h3>Aspiring Full Stack Java Development Professional</h3>
             <div className="about-meta">
               <span className="meta-item">
                 <MapPin size={16} />
-                Kalyan, Maharashtra
+                Prayagraj, Uttar Pradesh
               </span>
               <span className="meta-item">
                 <Calendar size={16} />
-                Available for opportunities
+                Open to opportunities
               </span>
             </div>
           </div>

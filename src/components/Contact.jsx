@@ -64,7 +64,7 @@ const Contact = () => {
                 <MapPin size={20} />
                 <div>
                   <span className="label">Location</span>
-                  <span>Kalyan, Maharashtra</span>
+                  <span>Prayagraj, Uttar Pradesh</span>
                 </div>
               </div>
             </div>
