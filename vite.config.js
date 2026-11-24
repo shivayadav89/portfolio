@@ -4,6 +4,9 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    open: true
+  },
   build: {
     chunkSizeWarningLimit: 1000
   }
