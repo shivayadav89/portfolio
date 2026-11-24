@@ -64,7 +64,7 @@ const Contact = () => {
                 <MapPin size={20} />
                 <div>
                   <span className="label">Location</span>
-                  <span>San Francisco, CA</span>
+                  <span>Kalyan, Maharashtra</span>
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ const experience = [
     company: 'Tech Innovation Inc.',
     position: 'Senior Full Stack Developer',
     duration: '2022 - Present',
-    location: 'San Francisco, CA',
+    location: 'Kalyan, Maharashtra',
     responsibilities: [
       'Led development of microservices architecture serving 1M+ users',
       'Mentored team of 5 junior developers',

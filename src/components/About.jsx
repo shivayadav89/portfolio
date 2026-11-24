@@ -20,7 +20,7 @@ const About = () => {
             <div className="about-meta">
               <span className="meta-item">
                 <MapPin size={16} />
-                San Francisco, CA
+                Kalyan, Maharashtra
               </span>
               <span className="meta-item">
                 <Calendar size={16} />
